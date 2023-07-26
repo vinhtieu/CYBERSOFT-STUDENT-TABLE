@@ -1,0 +1,221 @@
+:root {
+  --clr-primary: #52dc8e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #c3f0c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table tr {
+  cursor: pointer;
+}
+
+.placeholder {
+  display: block;
+}
+
+.error {
+  border: 2px solid red;
+}
+.error:focus {
+  border: 1px solid red;
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+}
+
+.container {
+}
+
+.students-manager {
+  outline: 10px solid rgba(255, 255, 255, 0.5);
+  padding: 16px;
+  min-height: 920px;
+}
+
+.students-manager .row {
+  height: 100%;
+}
+
+/* *List* */
+
+.student-list {
+  height: 100%;
+  /* position: relative; */
+}
+
+.student-list .crud-control {
+  display: flex;
+  flex-direction: row;
+}
+
+.student-list .crud-control .left-group {
+  flex: 1;
+  position: relative;
+}
+
+.student-list .crud-control .left-group #searchBar {
+  width: 350px;
+  height: 40px;
+  border-radius: 50px;
+  padding-left: 40px;
+}
+
+.student-list .crud-control .right-group {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-left: auto;
+}
+
+.student-list .crud-control .right-group .btn-add {
+  color: white;
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  background: var(--clr-primary);
+}
+
+.student-list .crud-control .right-group .btn-add:hover {
+  background: #39cf7a;
+}
+
+.student-list .crud-control .right-group .fa-plus {
+  font-size: 14px;
+}
+
+.student-list .crud-control .right-group .btn-sort {
+  color: black;
+  border: 0;
+  font-weight: 500;
+  font-size: 20px;
+  background: transparent;
+}
+
+.student-list .crud-control .right-group .btn-sort:hover {
+  background: #f0f0f0;
+}
+
+.student-list .crud-control .right-group .fa-sort-alpha-down {
+  font-size: 20px;
+}
+
+.fa-search {
+  position: absolute;
+  top: 55%;
+  left: 4%;
+  transform: translateY(-50%);
+}
+
+.table-hover {
+  --bs-table-hover-color: white;
+  --bs-table-hover-bg: var(--clr-primary);
+}
+
+.table-active {
+  --bs-table-active-bg: var(--clr-primary);
+  --bs-table-active-color: white;
+}
+
+.fa-minus-circle {
+  cursor: pointer;
+}
+
+/* .modal {
+    width: 450px;
+    height: 650px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    display: block;
+  } */
+
+/* .modal-dialog {
+    margin: 0;
+  }
+  .modal-dialog h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  .modal-dialog {
+    height: 100%;
+  }
+  .modal-content {
+    border: 0;
+  }
+  .modal-footer {
+    border: 0;
+  } */
+
+.btn-modal {
+  background: var(--clr-primary);
+  color: white;
+}
+
+.btn-modal:hover {
+  background: #39cf7a;
+  color: white;
+}
+
+/* *Info* */
+
+.student-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.student-info .avatar {
+  text-align: center;
+  align-self: center;
+}
+
+.student-info figure {
+  width: 250px;
+  height: 250px;
+  margin: 0;
+  margin-top: 25px;
+  align-self: center;
+}
+
+.student-info img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.student-info h2 {
+  margin-bottom: 0;
+}
+
+.student-info h3 {
+  color: #52dc8e;
+}
+
+.student-info .avatar,
+.student-info .origin {
+  margin-bottom: 16px;
+}
+
+.student-info .appearance div + div,
+.student-info .origin div + div {
+  margin-top: 2px;
+}

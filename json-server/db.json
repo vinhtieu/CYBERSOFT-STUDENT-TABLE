@@ -1,0 +1,60 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "image": "https://media.istockphoto.com/id/1161542987/photo/what-does-it-mean-being-macho-bristle-and-facial-hair-natural-beauty-man-attractive-well.jpg?s=612x612&w=0&k=20&c=itoXb5X-FfstDXInI5D180tW6grpG_DWUHcIFTqDEPc=",
+      "name": "John Smith",
+      "dateOfBirth": "1999-05-15",
+      "placeOfBirth": "America",
+      "gender": "Male",
+      "religion": "Christian",
+      "email": "john.smith@example.com",
+      "address": "123 Main Street, Cityville, USA",
+      "ethnicity": "Wa",
+      "nationality": "american",
+      "phoneNumber": "0000000000"
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.pixabay.com/photo/2021/06/11/12/26/woman-6328478_1280.jpg",
+      "name": "Emily Johnson",
+      "dateOfBirth": "2000-03-22",
+      "placeOfBirth": "America",
+      "gender": "Female",
+      "religion": "Jewish",
+      "email": "emily.johnson@example.com",
+      "address": "456 Oak Avenue, Townsville, USA",
+      "ethnicity": "Wa",
+      "nationality": "american",
+      "phoneNumber": "0000000000"
+    },
+    {
+      "id": 3,
+      "image": "https://i.pinimg.com/originals/a9/ed/8c/a9ed8cec6191c2c8623199bc6d8c521b.jpg",
+      "name": "Michael Lee",
+      "dateOfBirth": "1998-11-10",
+      "placeOfBirth": "America",
+      "gender": "Male",
+      "religion": "Buddhist",
+      "email": "michael.lee@example.com",
+      "address": "789 Elm Road, Villagetown, USA",
+      "ethnicity": "Wa",
+      "nationality": "american",
+      "phoneNumber": "0000000000"
+    },
+    {
+      "id": 4,
+      "image": "https://image.kpopmap.com/2021/09/jung-hoyeon-reaches-6-million-followers_cover-image.jpg",
+      "name": "Sophia Kim",
+      "dateOfBirth": "2001-07-03",
+      "placeOfBirth": "America",
+      "gender": "Female",
+      "religion": "Muslim",
+      "email": "sophia.kim@example.com",
+      "address": "987 Maple Lane, Hamletville, USA",
+      "ethnicity": "Wa",
+      "nationality": "american",
+      "phoneNumber": "0000000000"
+    }
+  ]
+}
